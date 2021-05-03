@@ -1,0 +1,56 @@
+a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+}
+
+a:first-child:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a:nth-child(2):active  {
+    color: red;
+    font-style:italic;
+}
+
+a:nth-child(3):visited  {
+    color: yellow;    
+}
+
+input:focus {
+    font-size: 20px;
+    color: green;
+}
+
+
+
+ul {
+    padding-top: 24px;
+    padding-bottom: 24px;;
+    background-color: lightskyblue;
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+}
+
+ul li {
+    margin-right: 24px;
+}
+
+.currentPage a{
+    background-color: lightblue;
+    color: white;
+}
+
+.currentPage a:hover {
+    color: blue;
+    font-weight: normal;
+}
+
+.inputtwee input:focus {
+    border: 3px aquamarine solid;
+    color: aquamarine;
+    outline: none;
+    
+}
